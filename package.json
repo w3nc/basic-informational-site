@@ -1,0 +1,10 @@
+{
+  "name": "basic-informational-site",
+  "version": "1.0.0",
+  "description": "The Odin Project - Project: Basic Informational Site (plain Node.js, no frameworks)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT"
+}

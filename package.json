@@ -1,10 +1,14 @@
 {
   "name": "basic-informational-site",
   "version": "1.0.0",
-  "description": "The Odin Project - Project: Basic Informational Site (plain Node.js, no frameworks)",
-  "main": "index.js",
+  "description": "The Odin Project - Project: Basic Informational Site (plain Node.js + an Express rewrite)",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js",
+    "start:plain": "node index.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
 }
